@@ -1,0 +1,1532 @@
+[
+    {
+    "pregunta": "¿Quién escribió la Odisea?",
+    "id": 101,
+    "catid": 1,
+    "respuestas": [
+        {
+            "id": 1,
+            "respuesta": "Ulises",
+            "correcta": 0
+        },
+        {
+            "id": 2,
+            "respuesta": "Shakespeare",
+            "correcta": 0
+        },
+        {
+            "id": 3,
+            "respuesta": "Homero",
+            "correcta": 1
+        },
+        {
+            "id": 4,
+            "respuesta": "Gabriel García Márquez",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de animal es la ballena?",
+    "id": 102,
+    "catid": 1,
+    "respuestas": [
+        {
+            "id": 5,
+            "respuesta": "Acuático",
+            "correcta": 0
+        },
+        {
+            "id": 6,
+            "respuesta": "Invertebrado",
+            "correcta": 0
+        },
+        {
+            "id": 7,
+            "respuesta": "Reptil",
+            "correcta": 0
+        },
+        {
+            "id": 8,
+            "respuesta": "Mamífero",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Qué cantidad de huesos hay en el cuerpo humano?",
+    "id": 103,
+    "catid": 1,
+    "respuestas": [
+        {
+            "id": 9,
+            "respuesta": "480",
+            "correcta": 0
+        },
+        {
+            "id": 10,
+            "respuesta": "100",
+            "correcta": 0
+        },
+        {
+            "id": 11,
+            "respuesta": "206",
+            "correcta": 1
+        },
+        {
+            "id": 12,
+            "respuesta": "807",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Quién pintó la Mona Lisa?",
+    "id": 104,
+    "catid": 1,
+    "respuestas": [
+        {
+            "id": 13,
+            "respuesta": "Da Vinci",
+            "correcta": 1
+        },
+        {
+            "id": 14,
+            "respuesta": "Picasso",
+            "correcta": 0
+        },
+        {
+            "id": 15,
+            "respuesta": "Goethe",
+            "correcta": 0
+        },
+        {
+            "id": 16,
+            "respuesta": "Van Gogh",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿En qué país se encuentra la Torre de Pisa?",
+    "id": 105,
+    "catid": 1,
+    "respuestas": [
+        {
+            "id": 17,
+            "respuesta": "Argentina",
+            "correcta": 0
+        },
+        {
+            "id": 18,
+            "respuesta": "Italia",
+            "correcta": 1
+        },
+        {
+            "id": 19,
+            "respuesta": "Rusia",
+            "correcta": 0
+        },
+        {
+            "id": 20,
+            "respuesta": "Argentina",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el país más grande del mundo?",
+    "id": 106,
+    "catid": 1,
+    "respuestas": [
+        {
+            "id": 21,
+            "respuesta": "Colombia",
+            "correcta": 0
+        },
+        {
+            "id": 22,
+            "respuesta": "Estados Unidos",
+            "correcta": 0
+        },
+        {
+            "id": 23,
+            "respuesta": "Canadá",
+            "correcta": 0
+        },
+        {
+            "id": 24,
+            "respuesta": "Rusia",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Quién va a la cárcel?",
+    "id": 107,
+    "catid": 1,
+    "respuestas": [
+        {
+            "id": 25,
+            "respuesta": "El imputado",
+            "correcta": 0
+        },
+        {
+            "id": 26,
+            "respuesta": "El acusado",
+            "correcta": 0
+        },
+        {
+            "id": 27,
+            "respuesta": "El condenado",
+            "correcta": 1
+        },
+        {
+            "id": 28,
+            "respuesta": "El perito",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Qué rama de la biología estudia los animales?",
+    "id": 108,
+    "catid": 1,
+    "respuestas": [
+        {
+            "id": 29,
+            "respuesta": "Zoología",
+            "correcta": 1
+        },
+        {
+            "id": 30,
+            "respuesta": "Etología",
+            "correcta": 0
+        },
+        {
+            "id": 31,
+            "respuesta": "Microbiología",
+            "correcta": 0
+        },
+        {
+            "id": 32,
+            "respuesta": "Anatomía",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Qué cantidad de huesos hay en el cuerpo humano?",
+    "id": 109,
+    "catid": 1,
+    "respuestas": [
+        {
+            "id": 33,
+            "respuesta": "480",
+            "correcta": 0
+        },
+        {
+            "id": 34,
+            "respuesta": "100",
+            "correcta": 0
+        },
+        {
+            "id": 35,
+            "respuesta": "206",
+            "correcta": 1
+        },
+        {
+            "id": 36,
+            "respuesta": "807",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Quién pintó la Mona Lisa?",
+    "id": 110,
+    "catid": 1,
+    "respuestas": [
+        {
+            "id": 37,
+            "respuesta": "Da Vinci",
+            "correcta": 1
+        },
+        {
+            "id": 38,
+            "respuesta": "Picasso",
+            "correcta": 0
+        },
+        {
+            "id": 39,
+            "respuesta": "Goethe",
+            "correcta": 0
+        },
+        {
+            "id": 40,
+            "respuesta": "Van Gogh",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿En qué año nace Emtelco?",
+    "id": 201,
+    "catid": 2,
+    "respuestas": [
+        {
+            "id": 41,
+            "respuesta": "2000",
+            "correcta": 0
+        },
+        {
+            "id": 42,
+            "respuesta": "1992",
+            "correcta": 1
+        },
+        {
+            "id": 43,
+            "respuesta": "1995",
+            "correcta": 0
+        },
+        {
+            "id": 44,
+            "respuesta": "2003",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Cuáles son las compañías que le dan respaldo y trayectoria a Emtelco?",
+    "id": 202,
+    "catid": 2,
+    "respuestas": [
+        {
+            "id": 45,
+            "respuesta": "TigoUne y Millicon",
+            "correcta": 0
+        },
+        {
+            "id": 46,
+            "respuesta": "Bancolombia y EPM",
+            "correcta": 0
+        },
+        {
+            "id": 47,
+            "respuesta": "Millicom y EPM",
+            "correcta": 1
+        },
+        {
+            "id": 48,
+            "respuesta": "Edatel, Millicom y Colpensiones",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Cuáles de estos servicios ofrece Emtelco?",
+    "id": 203,
+    "catid": 2,
+    "respuestas": [
+        {
+            "id": 49,
+            "respuesta": "Servicio al cliente, ventas y cobranzas",
+            "correcta": 1
+        },
+        {
+            "id": 50,
+            "respuesta": "Sostenibilidad, ventas e Indicadores de disponibilidad de canales",
+            "correcta": 0
+        },
+        {
+            "id": 51,
+            "respuesta": "Transacciones, soporte técnico y logística",
+            "correcta": 0
+        },
+        {
+            "id": 52,
+            "respuesta": "Mesa de servicios, cobranzas y domicilios",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "En Emtelco gestionamos experiencias para que nuestros usuarios vivan momentos memorables con su marca que emocionen positivamente.",
+    "id": 204,
+    "catid": 2,
+    "respuestas": [
+        {
+            "id": 53,
+            "respuesta": "Verdadero",
+            "correcta": 1
+        },
+        {
+            "id": 54,
+            "respuesta": "Falso",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Emtelco cuenta con 10 reconocimientos nacionales e internacionales dados en los últimos años.",
+    "id": 205,
+    "catid": 2,
+    "respuestas": [
+        {
+            "id": 55,
+            "respuesta": "Verdadero",
+            "correcta": 0
+        },
+        {
+            "id": 56,
+            "respuesta": "Falso",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "¿En qué año nace Emtelco?",
+    "id": 206,
+    "catid": 2,
+    "respuestas": [
+        {
+            "id": 57,
+            "respuesta": "2000",
+            "correcta": 0
+        },
+        {
+            "id": 58,
+            "respuesta": "1992",
+            "correcta": 1
+        },
+        {
+            "id": 59,
+            "respuesta": "1995",
+            "correcta": 0
+        },
+        {
+            "id": 60,
+            "respuesta": "2003",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Cuáles son las compañías que le dan respaldo y trayectoria a Emtelco?",
+    "id": 207,
+    "catid": 2,
+    "respuestas": [
+        {
+            "id": 61,
+            "respuesta": "TigoUne y Millicon",
+            "correcta": 0
+        },
+        {
+            "id": 62,
+            "respuesta": "Bancolombia y EPM",
+            "correcta": 0
+        },
+        {
+            "id": 63,
+            "respuesta": "Millicom y EPM",
+            "correcta": 1
+        },
+        {
+            "id": 64,
+            "respuesta": "Edatel, Millicom y Colpensiones",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Cuáles de estos servicios ofrece Emtelco?",
+    "id": 208,
+    "catid": 2,
+    "respuestas": [
+        {
+            "id": 65,
+            "respuesta": "Servicio al cliente, ventas y cobranzas",
+            "correcta": 1
+        },
+        {
+            "id": 66,
+            "respuesta": "Sostenibilidad, ventas e Indicadores de disponibilidad de canales",
+            "correcta": 0
+        },
+        {
+            "id": 67,
+            "respuesta": "Transacciones, soporte técnico y logística",
+            "correcta": 0
+        },
+        {
+            "id": 68,
+            "respuesta": "Mesa de servicios, cobranzas y domicilios",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "En Emtelco gestionamos experiencias para que nuestros usuarios vivan momentos memorables con su marca que emocionen positivamente.",
+    "id": 209,
+    "catid": 2,
+    "respuestas": [
+        {
+            "id": 69,
+            "respuesta": "Verdadero",
+            "correcta": 1
+        },
+        {
+            "id": 70,
+            "respuesta": "Falso",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Emtelco cuenta con 10 reconocimientos nacionales e internacionales dados en los últimos años.",
+    "id": 210,
+    "catid": 2,
+    "respuestas": [
+        {
+            "id": 71,
+            "respuesta": "Verdadero",
+            "correcta": 0
+        },
+        {
+            "id": 72,
+            "respuesta": "Falso",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Cuáles son nuestros valores corporativos?",
+    "id": 301,
+    "catid": 3,
+    "respuestas": [
+        {
+            "id": 73,
+            "respuesta": "Orgullo, confianza, ética, innovación y efectividad",
+            "correcta": 0
+        },
+        {
+            "id": 74,
+            "respuesta": "Pasión, confianza, integridad, innovación y simplicidad",
+            "correcta": 1
+        },
+        {
+            "id": 75,
+            "respuesta": "Pasión, sinceridad, integridad, desarrollo y sostenibilidad",
+            "correcta": 0
+        },
+        {
+            "id": 76,
+            "respuesta": "Alegría, respeto, transparencia, competitividad y simplicidad",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Sabemos que el cliente es el rey; somos positivos; contratamos, retenemos y promovemos a nuestros colaborados son algunas de nuestras reglas de oro",
+    "id": 302,
+    "catid": 3,
+    "respuestas": [
+        {
+            "id": 77,
+            "respuesta": "Verdadero",
+            "correcta": 1
+        },
+        {
+            "id": 78,
+            "respuesta": "Falso",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Cuáles de las siguientes son prendas adecuadas según el manual de vestuario?",
+    "id": 303,
+    "catid": 3,
+    "respuestas": [
+        {
+            "id": 79,
+            "respuesta": "Sandalia y/o Gorra",
+            "correcta": 0
+        },
+        {
+            "id": 80,
+            "respuesta": "Jean y/o camisa destapada",
+            "correcta": 0
+        },
+        {
+            "id": 81,
+            "respuesta": "Camiseta de Equipo y/o Gafas",
+            "correcta": 0
+        },
+        {
+            "id": 82,
+            "respuesta": "Camisa Ejecutiva y/o tenis",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "Cuando hay celebraciones de eventos especiales debes",
+    "id": 304,
+    "catid": 3,
+    "respuestas": [
+        {
+            "id": 83,
+            "respuesta": "Obligatoriamente decorar tu espacio de trabajo según la temática de la celebración.",
+            "correcta": 0
+        },
+        {
+            "id": 84,
+            "respuesta": "Usar silicona y pegantes fuertes para la fijación de elementos.",
+            "correcta": 0
+        },
+        {
+            "id": 85,
+            "respuesta": "Retirar la decoración y los residuos en el tiempo estipulado por la organización.",
+            "correcta": 1
+        },
+        {
+            "id": 86,
+            "respuesta": "Todas las anteriores.",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Hacen parte de nuestra política de seguridad.  I. Revisión de bolsos.  II. Portar el carné siempre en un lugar visible.  III. Requisa a la entrada y salida de las instalaciones.  IV. Hacer registro de equipos propios y empresariales.  V. Compartir tus claves o pegarlas bajo el teclado o el monitor.",
+    "id": 305,
+    "catid": 3,
+    "respuestas": [
+        {
+            "id": 87,
+            "respuesta": "I, II y IV son verdaderas ",
+            "correcta": 1
+        },
+        {
+            "id": 88,
+            "respuesta": "III, IV y V son falsas",
+            "correcta": 0
+        },
+        {
+            "id": 89,
+            "respuesta": "I, III y IV son verdaderos",
+            "correcta": 0
+        },
+        {
+            "id": 90,
+            "respuesta": "Todas son verdaderas",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Cuáles son nuestros valores corporativos?",
+    "id": 306,
+    "catid": 3,
+    "respuestas": [
+        {
+            "id": 91,
+            "respuesta": "Orgullo, confianza, ética, innovación y efectividad",
+            "correcta": 0
+        },
+        {
+            "id": 92,
+            "respuesta": "Pasión, confianza, integridad, innovación y simplicidad",
+            "correcta": 1
+        },
+        {
+            "id": 93,
+            "respuesta": "Pasión, sinceridad, integridad, desarrollo y sostenibilidad",
+            "correcta": 0
+        },
+        {
+            "id": 94,
+            "respuesta": "Alegría, respeto, transparencia, competitividad y simplicidad",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Sabemos que el cliente es el rey; somos positivos; contratamos, retenemos y promovemos a nuestros colaborados son algunas de nuestras reglas de oro",
+    "id": 307,
+    "catid": 3,
+    "respuestas": [
+        {
+            "id": 95,
+            "respuesta": "Verdadero",
+            "correcta": 1
+        },
+        {
+            "id": 96,
+            "respuesta": "Falso",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Cuáles de las siguientes son prendas adecuadas según el manual de vestuario?",
+    "id": 308,
+    "catid": 3,
+    "respuestas": [
+        {
+            "id": 97,
+            "respuesta": "Sandalia y/o Gorra",
+            "correcta": 0
+        },
+        {
+            "id": 98,
+            "respuesta": "Jean y/o camisa destapada",
+            "correcta": 0
+        },
+        {
+            "id": 99,
+            "respuesta": "Camiseta de Equipo y/o Gafas",
+            "correcta": 0
+        },
+        {
+            "id": 100,
+            "respuesta": "Camisa Ejecutiva y/o tenis",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "Cuando hay celebraciones de eventos especiales debes",
+    "id": 309,
+    "catid": 3,
+    "respuestas": [
+        {
+            "id": 101,
+            "respuesta": "Obligatoriamente decorar tu espacio de trabajo según la temática de la celebración",
+            "correcta": 0
+        },
+        {
+            "id": 102,
+            "respuesta": "Usar silicona y pegantes fuertes para la fijación de elementos",
+            "correcta": 0
+        },
+        {
+            "id": 103,
+            "respuesta": "Retirar la decoración y los residuos en el tiempo estipulado por la organización",
+            "correcta": 1
+        },
+        {
+            "id": 104,
+            "respuesta": "Todas las anteriores",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Hacen parte de nuestra política de seguridad.  I. Revisión de bolsos.  II. Portar el carné siempre en un lugar visible.  III. Requisa a la entrada y salida de las instalaciones.  IV. Hacer registro de equipos propios y empresariales.  V. Compartir tus claves o pegarlas bajo el teclado o el monitor.",
+    "id": 310,
+    "catid": 3,
+    "respuestas": [
+        {
+            "id": 105,
+            "respuesta": "I, II y IV son verdaderas ",
+            "correcta": 1
+        },
+        {
+            "id": 106,
+            "respuesta": "III, IV y V son falsas",
+            "correcta": 0
+        },
+        {
+            "id": 107,
+            "respuesta": "I, III y IV son verdaderos",
+            "correcta": 0
+        },
+        {
+            "id": 108,
+            "respuesta": "Todas son verdaderas",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el significado de BPO?",
+    "id": 401,
+    "catid": 4,
+    "respuestas": [
+        {
+            "id": 109,
+            "respuesta": "Atención al cliente",
+            "correcta": 0
+        },
+        {
+            "id": 110,
+            "respuesta": "Creador de experiencia",
+            "correcta": 0
+        },
+        {
+            "id": 111,
+            "respuesta": "Proceso de tercerización",
+            "correcta": 1
+        },
+        {
+            "id": 112,
+            "respuesta": "Peticiones, quejas, reclamos",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Consiste en prestar los servicios a los usuarios de manera virtual, telefónica y/o presencial.",
+    "id": 402,
+    "catid": 4,
+    "respuestas": [
+        {
+            "id": 113,
+            "respuesta": "Servicio puerta a puerta",
+            "correcta": 0
+        },
+        {
+            "id": 114,
+            "respuesta": "Soporte técnico",
+            "correcta": 0
+        },
+        {
+            "id": 115,
+            "respuesta": "Atención al cliente",
+            "correcta": 0
+        },
+        {
+            "id": 116,
+            "respuesta": "Plataforma omnicanal",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "Corresponde al uso correcto de software ofimático:",
+    "id": 403,
+    "catid": 4,
+    "respuestas": [
+        {
+            "id": 117,
+            "respuesta": "Instalar tú mismo los programas que consideres necesarios para llevar a cabo tus labores",
+            "correcta": 0
+        },
+        {
+            "id": 118,
+            "respuesta": "No se permite la instalación de ningún programa en los equipos corporativos y todo el software instalado debe ser propiedad de Emtelco",
+            "correcta": 1
+        },
+        {
+            "id": 119,
+            "respuesta": "Puedes desinstalar programas cuando lo consideres necesario",
+            "correcta": 0
+        },
+        {
+            "id": 120,
+            "respuesta": "Se deben formatear los equipos mensualmente para mantenerlos limpios de virus.",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "El fondo de crédito te da beneficios como",
+    "id": 404,
+    "catid": 4,
+    "respuestas": [
+        {
+            "id": 121,
+            "respuesta": "Fomentar el ahorro",
+            "correcta": 0
+        },
+        {
+            "id": 122,
+            "respuesta": "Facilitar préstamos de hasta 4 veces lo ahorrado",
+            "correcta": 0
+        },
+        {
+            "id": 123,
+            "respuesta": "Acceso a múltiples convenios",
+            "correcta": 0
+        },
+        {
+            "id": 124,
+            "respuesta": "Deducción por nómina",
+            "correcta": 0
+        },
+        {
+            "id": 125,
+            "respuesta": "Todas las anteriores",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Qué es un accidente laboral?",
+    "id": 405,
+    "catid": 4,
+    "respuestas": [
+        {
+            "id": 126,
+            "respuesta": "La administración de riesgo de lavado de activos y terrorismo",
+            "correcta": 0
+        },
+        {
+            "id": 127,
+            "respuesta": "Todo suceso repentino que ocurra por causa del trabajo y que produzca en el trabajador una lesión, perturbación funcional, psiquiátrica, invalidez o muerte.",
+            "correcta": 1
+        },
+        {
+            "id": 128,
+            "respuesta": "La vulnerabilidad frente a daños materiales",
+            "correcta": 0
+        },
+        {
+            "id": 129,
+            "respuesta": "Negligencia al tomar en cuenta los factores de riesgo o las posibles consecuencias de una acción tomada.",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el Sistema de administración de riesgo de lavado de activos y financiación del terrorismo?",
+    "id": 406,
+    "catid": 4,
+    "respuestas": [
+        {
+            "id": 130,
+            "respuesta": "Gestión ambiental",
+            "correcta": 0
+        },
+        {
+            "id": 131,
+            "respuesta": "SARLAFT",
+            "correcta": 1
+        },
+        {
+            "id": 132,
+            "respuesta": "SeUs",
+            "correcta": 0
+        },
+        {
+            "id": 133,
+            "respuesta": "Zona",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Corresponde al uso correcto de software ofimático:",
+    "id": 407,
+    "catid": 4,
+    "respuestas": [
+        {
+            "id": 134,
+            "respuesta": "Instalar tú mismo los programas que consideres necesarios para llevar a cabo tus labores",
+            "correcta": 0
+        },
+        {
+            "id": 135,
+            "respuesta": "No se permite la instalación de ningún programa en los equipos corporativos y todo el software instalado debe ser propiedad de Emtelco",
+            "correcta": 1
+        },
+        {
+            "id": 136,
+            "respuesta": "Puedes desinstalar programas cuando lo consideres necesario",
+            "correcta": 0
+        },
+        {
+            "id": 137,
+            "respuesta": "Se deben formatear los equipos mensualmente para mantenerlos limpios de virus.",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "El fondo de crédito te da beneficios como",
+    "id": 408,
+    "catid": 4,
+    "respuestas": [
+        {
+            "id": 138,
+            "respuesta": "Fomentar el ahorro",
+            "correcta": 0
+        },
+        {
+            "id": 139,
+            "respuesta": "Facilitar préstamos de hasta 4 veces lo ahorrado",
+            "correcta": 0
+        },
+        {
+            "id": 140,
+            "respuesta": "Acceso a múltiples convenios",
+            "correcta": 0
+        },
+        {
+            "id": 141,
+            "respuesta": "Deducción por nómina",
+            "correcta": 0
+        },
+        {
+            "id": 142,
+            "respuesta": "Todas las anteriores",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Qué es un accidente laboral?",
+    "id": 409,
+    "catid": 4,
+    "respuestas": [
+        {
+            "id": 143,
+            "respuesta": "La administración de riesgo de lavado de activos y terrorismo",
+            "correcta": 0
+        },
+        {
+            "id": 144,
+            "respuesta": "Todo suceso repentino que ocurra por causa del trabajo y que produzca en el trabajador una lesión, perturbación funcional, psiquiátrica, invalidez o muerte.",
+            "correcta": 1
+        },
+        {
+            "id": 145,
+            "respuesta": "La vulnerabilidad frente a daños materiales",
+            "correcta": 0
+        },
+        {
+            "id": 146,
+            "respuesta": "Negligencia al tomar en cuenta los factores de riesgo o las posibles consecuencias de una acción tomada.",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el Sistema de administración de riesgo de lavado de activos y financiación del terrorismo?",
+    "id": 410,
+    "catid": 4,
+    "respuestas": [
+        {
+            "id": 147,
+            "respuesta": "Gestión ambiental",
+            "correcta": 0
+        },
+        {
+            "id": 148,
+            "respuesta": "SARLAFT",
+            "correcta": 1
+        },
+        {
+            "id": 149,
+            "respuesta": "SeUs",
+            "correcta": 0
+        },
+        {
+            "id": 150,
+            "respuesta": "Zona",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Se encarga de la prevención de lesiones y enfermedades causadas por las condiciones de trabajo",
+    "id": 501,
+    "catid": 5,
+    "respuestas": [
+        {
+            "id": 151,
+            "respuesta": "Sistema de Gestión Integral",
+            "correcta": 0
+        },
+        {
+            "id": 152,
+            "respuesta": "Sistema de Seguridad y Salud en el Trabajo",
+            "correcta": 1
+        },
+        {
+            "id": 153,
+            "respuesta": "SeUs",
+            "correcta": 0
+        },
+        {
+            "id": 154,
+            "respuesta": "SARLAF",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Un peligro es: ",
+    "id": 502,
+    "catid": 5,
+    "respuestas": [
+        {
+            "id": 155,
+            "respuesta": "Una fuente, situación o acto con potencial de causar daño en la salud de los trabajadores, en los equipos o en las instalaciones.",
+            "correcta": 1
+        },
+        {
+            "id": 156,
+            "respuesta": "Ausencia de riesgo",
+            "correcta": 0
+        },
+        {
+            "id": 157,
+            "respuesta": "Estado mental asociado con una patología ",
+            "correcta": 0
+        },
+        {
+            "id": 158,
+            "respuesta": "Una característica estructural de una instalación",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Para que exista un riesgo es necesaria la combinación de la probabilidad de que ocurra un evento peligroso y la severidad del daño que puede llegar a causar.",
+    "id": 503,
+    "catid": 5,
+    "respuestas": [
+        {
+            "id": 159,
+            "respuesta": "Verdadero",
+            "correcta": 1
+        },
+        {
+            "id": 160,
+            "respuesta": "Falso",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "El equipo de apoyo con criterio para la ejecución de procedimientos de prevención y control en emergencias es:",
+    "id": 504,
+    "catid": 5,
+    "respuestas": [
+        {
+            "id": 161,
+            "respuesta": "SARLAFT",
+            "correcta": 0
+        },
+        {
+            "id": 162,
+            "respuesta": "Sindicato de trabajadores",
+            "correcta": 0
+        },
+        {
+            "id": 163,
+            "respuesta": "Brigada de emergencia",
+            "correcta": 1
+        },
+        {
+            "id": 164,
+            "respuesta": "COPASST",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "El grupo de personas representantes del empleador y trabajadores que promocionan la salud laboral se denomina",
+    "id": 505,
+    "catid": 5,
+    "respuestas": [
+        {
+            "id": 165,
+            "respuesta": "SARLAFT",
+            "correcta": 0
+        },
+        {
+            "id": 166,
+            "respuesta": "Sindicato de trabajadores",
+            "correcta": 0
+        },
+        {
+            "id": 167,
+            "respuesta": "Brigada de emergencia",
+            "correcta": 0
+        },
+        {
+            "id": 168,
+            "respuesta": "COPASST",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "Se encarga de la prevención de lesiones y enfermedades causadas por las condiciones de trabajo",
+    "id": 506,
+    "catid": 5,
+    "respuestas": [
+        {
+            "id": 169,
+            "respuesta": "Sistema de Gestión Integral",
+            "correcta": 0
+        },
+        {
+            "id": 170,
+            "respuesta": "Sistema de Seguridad y Salud en el Trabajo ",
+            "correcta": 1
+        },
+        {
+            "id": 171,
+            "respuesta": "SeUs",
+            "correcta": 0
+        },
+        {
+            "id": 172,
+            "respuesta": "SARLAF",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Un peligro es: ",
+    "id": 507,
+    "catid": 5,
+    "respuestas": [
+        {
+            "id": 173,
+            "respuesta": "Una fuente, situación o acto con potencial de causar daño en la salud de los trabajadores, en los equipos o en las instalaciones.",
+            "correcta": 1
+        },
+        {
+            "id": 174,
+            "respuesta": "Ausencia de riesgo",
+            "correcta": 0
+        },
+        {
+            "id": 175,
+            "respuesta": "Estado mental asociado con una patología ",
+            "correcta": 0
+        },
+        {
+            "id": 176,
+            "respuesta": "Una característica estructural de una instalación",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Para que exista un riesgo es necesaria la combinación de la probabilidad de que ocurra un evento peligroso y la severidad del daño que puede llegar a causar.",
+    "id": 508,
+    "catid": 5,
+    "respuestas": [
+        {
+            "id": 177,
+            "respuesta": "Verdadero",
+            "correcta": 1
+        },
+        {
+            "id": 178,
+            "respuesta": "Falso",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "El equipo de apoyo con criterio para la ejecución de procedimientos de prevención y control en emergencias es:",
+    "id": 509,
+    "catid": 5,
+    "respuestas": [
+        {
+            "id": 179,
+            "respuesta": "SARLAFT",
+            "correcta": 0
+        },
+        {
+            "id": 180,
+            "respuesta": "Sindicato de trabajadores",
+            "correcta": 0
+        },
+        {
+            "id": 181,
+            "respuesta": "Brigada de emergencia",
+            "correcta": 1
+        },
+        {
+            "id": 182,
+            "respuesta": "COPASST",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "El grupo de personas representantes del empleador y trabajadores que promocionan la salud laboral se denomina",
+    "id": 510,
+    "catid": 5,
+    "respuestas": [
+        {
+            "id": 183,
+            "respuesta": "SARLAFT",
+            "correcta": 0
+        },
+        {
+            "id": 184,
+            "respuesta": "Sindicato de trabajadores",
+            "correcta": 0
+        },
+        {
+            "id": 185,
+            "respuesta": "Brigada de emergencia",
+            "correcta": 0
+        },
+        {
+            "id": 186,
+            "respuesta": "COPASST",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "El objetivo del área de bienestar laboral es “promover actividades que enriquecen la calidad de vida de nuestros colaboradores y sus familias, con beneficios que aportan a su desarrollo integral”",
+    "id": 601,
+    "catid": 6,
+    "respuestas": [
+        {
+            "id": 187,
+            "respuesta": "Verdadero",
+            "correcta": 1
+        },
+        {
+            "id": 188,
+            "respuesta": "Falso",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Algunos de los beneficios que te bridamos desde el área de bienestar laboral son:",
+    "id": 602,
+    "catid": 6,
+    "respuestas": [
+        {
+            "id": 189,
+            "respuesta": "Transporte, artes, vivienda",
+            "correcta": 0
+        },
+        {
+            "id": 190,
+            "respuesta": "Idiomas, vivienda",
+            "correcta": 0
+        },
+        {
+            "id": 191,
+            "respuesta": "Servicios públicos, transporte, educación",
+            "correcta": 0
+        },
+        {
+            "id": 192,
+            "respuesta": "Vinculación emocional, idiomas, consultorio psicológico, educación",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "En esta área de Emtelco encontrarás personas dispuestas a escucharte en cualquier situación",
+    "id": 603,
+    "catid": 6,
+    "respuestas": [
+        {
+            "id": 193,
+            "respuesta": "Relaciones laborales",
+            "correcta": 0
+        },
+        {
+            "id": 194,
+            "respuesta": "Selección y Vinculación",
+            "correcta": 0
+        },
+        {
+            "id": 195,
+            "respuesta": "Consultorio Psicológico",
+            "correcta": 1
+        },
+        {
+            "id": 196,
+            "respuesta": "Desarrollo Humano",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "El “club e” está pensado para",
+    "id": 604,
+    "catid": 6,
+    "respuestas": [
+        {
+            "id": 197,
+            "respuesta": "Escuchar a las personas que lo necesitan",
+            "correcta": 0
+        },
+        {
+            "id": 198,
+            "respuesta": "Reconocer a los creadores de experiencia que se destacan por su excelente desempeño",
+            "correcta": 1
+        },
+        {
+            "id": 199,
+            "respuesta": "Dar descuentos para parques de diversión",
+            "correcta": 0
+        },
+        {
+            "id": 200,
+            "respuesta": "Crear torneos de fútbol",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Para adquirir la dotación de uniforme debes",
+    "id": 605,
+    "catid": 6,
+    "respuestas": [
+        {
+            "id": 201,
+            "respuesta": "Devengar máximo 2 salarios mínimos mensuales",
+            "correcta": 0
+        },
+        {
+            "id": 202,
+            "respuesta": "Llevar vinculado en la compañía mínimo 4 meses",
+            "correcta": 0
+        },
+        {
+            "id": 203,
+            "respuesta": "Enviar la información de tus tallas en las fechas solicitadas",
+            "correcta": 0
+        },
+        {
+            "id": 204,
+            "respuesta": "Todas las anteriores",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "El objetivo del área de bienestar laboral es “promover actividades que enriquecen la calidad de vida de nuestros colaboradores y sus familias, con beneficios que aportan a su desarrollo integral”",
+    "id": 606,
+    "catid": 6,
+    "respuestas": [
+        {
+            "id": 205,
+            "respuesta": "Verdadero",
+            "correcta": 1
+        },
+        {
+            "id": 206,
+            "respuesta": "Falso",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Algunos de los beneficios que te bridamos desde el área de bienestar laboral son:",
+    "id": 607,
+    "catid": 6,
+    "respuestas": [
+        {
+            "id": 207,
+            "respuesta": "Transporte, artes, vivienda",
+            "correcta": 0
+        },
+        {
+            "id": 208,
+            "respuesta": "Idiomas, vivienda",
+            "correcta": 0
+        },
+        {
+            "id": 209,
+            "respuesta": "Servicios públicos, transporte, educación",
+            "correcta": 0
+        },
+        {
+            "id": 210,
+            "respuesta": "Vinculación emocional, idiomas, consultorio psicológico, educación",
+            "correcta": 1
+        }
+    ]
+  },
+  {
+    "pregunta": "En esta área de Emtelco encontrarás personas dispuestas a escucharte en cualquier situación",
+    "id": 608,
+    "catid": 6,
+    "respuestas": [
+        {
+            "id": 211,
+            "respuesta": "Relaciones laborales",
+            "correcta": 0
+        },
+        {
+            "id": 212,
+            "respuesta": "Selección y Vinculación",
+            "correcta": 0
+        },
+        {
+            "id": 213,
+            "respuesta": "Consultorio Psicológico",
+            "correcta": 1
+        },
+        {
+            "id": 214,
+            "respuesta": "Desarrollo Humano",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "El “club e” está pensado para",
+    "id": 609,
+    "catid": 6,
+    "respuestas": [
+        {
+            "id": 215,
+            "respuesta": "Escuchar a las personas que lo necesitan",
+            "correcta": 0
+        },
+        {
+            "id": 216,
+            "respuesta": "Reconocer a los creadores de experiencia que se destacan por su excelente desempeño",
+            "correcta": 1
+        },
+        {
+            "id": 217,
+            "respuesta": "Dar descuentos para parques de diversión",
+            "correcta": 0
+        },
+        {
+            "id": 218,
+            "respuesta": "Crear torneos de fútbol",
+            "correcta": 0
+        }
+    ]
+  },
+  {
+    "pregunta": "Para adquirir la dotación de uniforme debes",
+    "id": 610,
+    "catid": 6,
+    "respuestas": [
+        {
+            "id": 219,
+            "respuesta": "Devengar máximo 2 salarios mínimos mensuales",
+            "correcta": 0
+        },
+        {
+            "id": 220,
+            "respuesta": "Llevar vinculado en la compañía mínimo 4 meses",
+            "correcta": 0
+        },
+        {
+            "id": 221,
+            "respuesta": "Enviar la información de tus tallas en las fechas solicitadas",
+            "correcta": 0
+        },
+        {
+            "id": 222,
+            "respuesta": "Todas las anteriores",
+            "correcta": 1
+        }
+    ]
+  }
+]

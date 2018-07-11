@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Cultura General",
+        "id": 1
+    },
+    {
+        "nombre": "Conozcámonos",
+        "id": 2
+    },
+    {
+        "nombre": "Cultura Organizacional",
+        "id": 3
+    },
+    {
+        "nombre": "Azar",
+        "id": 4
+    },
+    {
+        "nombre": "Seguridad y Salud en el Trabajo (SST)",
+        "id": 5
+    },
+    {
+        "nombre": "Bienestar",
+        "id": 6
+    }
+]

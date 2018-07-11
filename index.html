@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="language" content="es" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="feliphegomez" />
+		<link href="favicon.ico" rel="icon" /> 
+		<title>Ruleta - Emtelco</title>
+		<!-- CSS -->
+		<link href="css/reset.css" rel="stylesheet" />
+		<link href="css/main.css" rel="stylesheet" /> 
+		<link href="css/magnific-popup.css" rel="stylesheet" />
+		 <!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="page-preloader">
+		<!-- PRELOADER -->
+		<div id="preload-app" class="preloader-wrap"><h3 class="title">Espere...</h3> <span>!FelipheGomez.info<div class="preloader"></div></div>
+		
+		<div id="contenedor-app" class="hidden">
+			<!-- Sonidos -->
+			<audio class="hidden" id="snd-fondo" preload="auto">
+				<source src="sonidos/musica_fondo.ogg" type="audio/ogg">
+				<source src="sonidos/musica_fondo.mp3" type="audio/mpeg">
+			</audio> 
+			<audio class="hidden" id="snd-general" preload="auto" >
+				<source src="sonidos/boton_general.ogg" type="audio/ogg">
+				<source src="sonidos/boton_general.mp3" type="audio/mpeg">
+			</audio>   
+			<audio class="hidden" id="snd-cambio-jugador" preload="auto" >
+				<source src="sonidos/cambio_jugador.ogg" type="audio/ogg">
+				<source src="sonidos/cambio_jugador.mp3" type="audio/mpeg">
+			</audio> 
+			<audio class="hidden" id="snd-despliegue" preload="auto" >
+				<source src="sonidos/despliegue_cortina.ogg" type="audio/ogg">
+				<source src="sonidos/despliegue_cortina.mp3" type="audio/mpeg">
+			</audio>
+			<audio class="hidden" id="snd-fondo" preload="auto" >
+				<source src="sonidos/musica_fondo.ogg" type="audio/ogg">
+				<source src="sonidos/musica_fondo.mp3" type="audio/mpeg">
+			</audio> 
+			<audio class="hidden" id="snd-correcto-1" preload="auto" >
+				<source src="sonidos/respuesta_correcta.ogg" type="audio/ogg">
+				<source src="sonidos/respuesta_correcta.mp3" type="audio/mpeg">
+			</audio>  
+			<audio class="hidden" id="snd-correcto-2" preload="auto" >
+				<source src="sonidos/respuesta_correcta_2.ogg" type="audio/ogg">
+				<source src="sonidos/respuesta_correcta_2.mp3" type="audio/mpeg">
+			</audio>  
+			<audio class="hidden" id="snd-incorrecto" preload="auto" >
+				<source src="sonidos/respuesta_incorrecta.ogg" type="audio/ogg">
+				<source src="sonidos/respuesta_incorrecta.mp3" type="audio/mpeg">
+			</audio>     
+			<audio class="hidden" id="snd-tiempo" preload="auto" >
+				<source src="sonidos/tiempo.ogg" type="audio/ogg">
+				<source src="sonidos/tiempo.mp3" type="audio/mpeg">
+			</audio>  
+			<audio class="hidden" id="snd-ruleta" preload="auto" >
+				<source src="sonidos/ruleta.ogg" type="audio/ogg">
+				<source src="sonidos/ruleta.mp3" type="audio/mpeg">
+			</audio>                
+			
+			<!-- /Sonidos -->
+			<div class="hidden"><a class="modal-open-tips modal-close-self" data-mfp-src="#modal-tips"></a></div>
+			<div class="page-wrap">
+				<div class="splash-title"></div>
+				<!-- TOP BAR -->
+				<div class="top-bar">
+					<div class="page-width relative-wrap">
+						<!-- Options -->
+						<ul class="nav-options">
+							<li><a class="btn btn-default btn-square modal-open-top modal-open-stats" data-mfp-src="#modal-stats" title="Estadísticas"><span class="ico-chart"></span></a></li>
+							<li><a id="switch-sonido" class="btn btn-default btn-square" title="Sonido"><span class="ico-audio"></span></a></li>
+							<li><a id="btn-fullscreen" class="btn btn-default btn-square btn-fullscreen" title="Pantalla completa"><span class="ico-fullscreen"></span></a></li>
+							<li><a class="btn btn-default btn-square modal-open" data-mfp-src="#modal-exit" title="Salir"><span class="ico-close"></span></a></li>
+						</ul>
+
+						<!-- Score -->
+						<div class="player-score"><em>0</em>/0</div>
+						<div class="main-title hidden"><h1>Title_Page_Default</h1></div>
+					</div>
+				</div>
+				<!-- MAIN -->
+				<div class="main page-width">
+					<!-- PLAYER -->
+					<div class="current-player">
+						<h2 class="player-name-title"><span></span></h2>
+						<span class="player-msg">Juega!</span>
+					</div>
+					
+					<!-- CONTENT -->
+					<div class="content">
+						<!-- ROULETTE -->
+						<div class="frame-roulette frame-cat ruleta-categoria hidden">
+							<!-- SLIDER -->
+							<div class="cat-slider cycle-slideshow"
+								data-cycle-fx="scrollHorz"
+								data-cycle-speed="800"
+								data-cycle-timeout="0"
+								data-cycle-next=".slide-next"
+								data-cycle-prev=".slide-prev"
+								data-cycle-slides="> div">
+
+								
+								
+								<!-- CAT 1 - Cultura general -->
+								<div class="cat-description cat-1">
+									<div>
+										<span class="ico-circular ico-default"><span class="ico-cat ico-cat-1"></span></span>
+										<!--
+										<span class="ico-circular ico-default">
+											<span class="ico-cat ico-cat-1"></span>
+										</span>
+										-->
+										<h4 class="title-regular">Cultura general</h4>
+										<p>Esta categoría te presenta preguntas de la historia de la humanidad y datos curiosos con el fin de dinamizar tu experiencia con el juego y mantener despierta tu atención.</p>
+										<dl class="term-list">
+											<dt>Color:</dt>
+											<dd>Gris claro</dd>
+											<!-- <dd><span class="color-shape cat-1"></span></dd> -->
+										</dl>
+										<a href="" class="btn-next slide-next"></a>
+										<a href="" class="btn-prev slide-prev"></a>
+										<a class="btn-close btn-close-categoria"></a>
+									</div>							
+								</div>
+								
+								<!-- CAT 2 - Conozcámonos -->
+								<div class="cat-description cat-2">
+									<div>
+										<span class="ico-circular ico-default"><span class="ico-cat ico-cat-2"></span></span>
+										<!--
+										<span class="ico-circular ico-default">
+											<span class="ico-cat ico-cat-2"></span>
+										</span>
+										-->
+										<h4 class="title-regular">Conozcámonos</h4>
+										<p>Con las preguntas de esta categoría podrás reforzar tus conocimientos acerca de quiénes somos, nuestra cobertura, trayectoria y pensamiento estratégico.</p>
+										<dl class="term-list">
+											<dt>Color:</dt>
+											<dd>Verde</dd>
+											<!-- <dd><span class="color-shape cat-2"></span></dd> -->
+										</dl>
+										<a href="" class="btn-next slide-next"></a>
+										<a href="" class="btn-prev slide-prev"></a>
+										<a class="btn-close btn-close-categoria"></a>
+									</div>							
+								</div>
+								
+								<!-- CAT 3 - Cultura organizacional -->
+								<div class="cat-description cat-3">
+									<div>
+										<span class="ico-circular ico-default"><span class="ico-cat ico-cat-3"></span></span>
+										<!--
+										<span class="ico-circular ico-default">
+											<span class="ico-cat ico-cat-3"></span>
+										</span>
+										-->
+										<h4 class="title-regular">Cultura organizacional</h4>
+										<p>Aquí encontrarás preguntas relacionadas con nuestros valores y reglas, aquello que nos mueve a cumplir con emoción nuestros compromisos, el mapa común que guía nuestro accionar dentro de la organización con temas como el vestuario, uso de áreas comunes, políticas de seguridad, entre otros</p>
+										<dl class="term-list">
+											<dt>Color:</dt>
+											<dd>Azul claro</dd>
+											<!-- <dd><span class="color-shape cat-3"></span></dd> -->
+										</dl>
+										<a href="" class="btn-next slide-next"></a>
+										<a href="" class="btn-prev slide-prev"></a>
+										<a class="btn-close btn-close-categoria"></a>
+									</div>							
+								</div>
+								
+								<!-- CAT 4 - Azar -->
+								<div class="cat-description cat-4">
+									<div>
+										<span class="ico-circular ico-default"><span class="ico-cat ico-cat-4"></span></span>
+										<!--
+										<span class="ico-circular ico-default">
+											<span class="ico-cat ico-cat-4"></span>
+										</span>
+										-->
+										<h4 class="title-regular">Azar</h4>
+										<p>Las preguntas de esta categoría hacen referencia cualquiera de las categorías anteriormente mencionadas. ¡Suerte con ellas!</p>
+										<dl class="term-list">
+											<dt>Color:</dt>
+											<dd>Gris oscuro</dd>
+											<!-- <dd><span class="color-shape cat-4"></span></dd> -->
+										</dl>
+										<a href="" class="btn-next slide-next"></a>
+										<a href="" class="btn-prev slide-prev"></a>
+										<a class="btn-close btn-close-categoria"></a>
+									</div>							
+								</div>
+								
+								<!-- CAT 5 - Seguridad y salud en el trabajo (SST) -->
+								<div class="cat-description cat-5">
+									<div>
+										<span class="ico-circular ico-default"><span class="ico-cat ico-cat-5"></span></span>
+										<!--
+										<span class="ico-circular ico-default">
+											<span class="ico-cat ico-cat-5"></span>
+										</span>
+										-->
+										<h4 class="title-regular">Seguridad y salud en el trabajo (SST)</h4>
+										<p>Las preguntas que hallarás en esta categoría corresponden al Sistema de Seguridad y Salud en el trabajo (SST) con el fin de que refuerces tus conocimientos acerca de la prevención de lesiones y enfermedades causadas por las condiciones de trabajo.</p>
+										<dl class="term-list">
+											<dt>Color:</dt>
+											<dd>Amarillo</dd>
+											<!-- <dd><span class="color-shape cat-5"></span></dd> -->
+										</dl>
+										<a href="" class="btn-next slide-next"></a>
+										<a href="" class="btn-prev slide-prev"></a>
+										<a class="btn-close btn-close-categoria"></a>
+									</div>							
+								</div>
+								
+								<!-- CAT 6 - Bienestar -->
+								<div class="cat-description cat-6">
+									<div>
+										<span class="ico-circular ico-default"><span class="ico-cat ico-cat-6"></span></span>
+										<!-- 
+										<span class="ico-circular ico-default">
+											<span class="ico-cat ico-cat-6"></span>
+										</span>
+										-->
+										<h4 class="title-regular">Bienestar</h4>
+										<p>En esta categoría encontrarás preguntas acerca de aquellas actividades y beneficios encaminados a enriquecer tu calidad de vida y la de tu familia.</p>
+										<dl class="term-list">
+											<dt>Color:</dt>
+											<dd>Azul oscuro</dd>
+											<!-- <dd><span class="color-shape cat-6"></span></dd> -->
+										</dl>
+										<a href="" class="btn-next slide-next"></a>
+										<a href="" class="btn-prev slide-prev"></a>
+										<a class="btn-close btn-close-categoria"></a>
+									</div>							
+								</div>
+							</div>
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							<!--/cat-slider -->
+							<ul class="cat-label-list">
+								<li class="cat-1">
+									<span class="ico-circular ico-default ico-xs"><span class="ico-cat ico-cat-1"></span></span>
+									<a data-cycle-cmd="goto" data-cycle-arg="0" class="item-cat">Cultura General</a>
+								</li>
+								<li class="cat-2">
+									<span class="ico-circular ico-default ico-xs"><span class="ico-cat ico-cat-2"></span></span>
+									<a data-cycle-cmd="goto" data-cycle-arg="1">Conozcámonos</a>
+								</li>
+								<li class="cat-3">
+									<span class="ico-circular ico-default ico-xs"><span class="ico-cat ico-cat-3"></span></span>
+									<a data-cycle-cmd="goto" data-cycle-arg="2">Cultura Organizacional</a>
+								</li>
+								<li class="cat-4">
+									<span class="ico-circular ico-default ico-xs"><span class="ico-cat ico-cat-4"></span></span>
+									<a data-cycle-cmd="goto" data-cycle-arg="3">Azar</a>
+								</li>
+								<li class="cat-5">
+									<span class="ico-circular ico-default ico-xs"><span class="ico-cat ico-cat-5"></span></span>
+									<a data-cycle-cmd="goto" data-cycle-arg="4">Seguridad y Salud en el Trabajo (SST)</a>
+								</li>
+								<li class="cat-6">
+									<span class="ico-circular ico-default ico-xs"><span class="ico-cat ico-cat-6"></span></span>
+									<a data-cycle-cmd="goto" data-cycle-arg="5">Bienestar</a>
+								</li>
+							</ul>
+						</div>
+						<!--/frame-roulette-->
+						<!-- ROULETTE -->
+						<div class="frame-roulette ruleta-juego">
+							<div class="wheel-wrap">
+								<div class="roulette-pointer ">
+									<a class="btn-turn marker">Girar</a>
+								</div>
+								<img class="roulette wheel" src="img/roullete.svg" alt="Ruleta">
+							</div>
+							<ul class="cat-label-list disabled_cancel">
+								<li class="cat-1">
+									<span class="ico-circular ico-default ico-xs">
+										<span class="ico-cat ico-cat-1"></span>
+									</span>
+									<a data-cycle-cmd="goto" data-cycle-arg="0" class="item-cat">Cultura General</a>
+								</li>
+								
+								<li class="cat-2">
+									<span class="ico-circular ico-default ico-xs">
+										<span class="ico-cat ico-cat-2"></span>
+									</span>
+									<a data-cycle-cmd="goto" data-cycle-arg="1" class="item-cat">Conozcámonos</a>
+								</li>
+								
+								<li class="cat-3">
+									<span class="ico-circular ico-default ico-xs">
+										<span class="ico-cat ico-cat-3"></span>
+									</span>
+									<a data-cycle-cmd="goto" data-cycle-arg="2" class="item-cat">Cultura Organizacional</a>
+								</li>
+								
+								<li class="cat-4">
+									<span class="ico-circular ico-default ico-xs">
+										<span class="ico-cat ico-cat-4"></span>
+									</span>
+									<a data-cycle-cmd="goto" data-cycle-arg="3" class="item-cat">Azar</a>
+								</li>
+								
+								<li class="cat-5">
+									<span class="ico-circular ico-default ico-xs">
+										<span class="ico-cat ico-cat-5"></span>
+									</span>
+									<a data-cycle-cmd="goto" data-cycle-arg="4" class="item-cat">Seguridad y Salud en el Trabajo (SST)</a>
+								</li>
+								
+								<li class="cat-6">
+									<span class="ico-circular ico-default ico-xs">
+										<span class="ico-cat ico-cat-6"></span>
+									</span>
+									<a data-cycle-cmd="goto" data-cycle-arg="5" class="item-cat">Bienestar</a>
+								</li>
+							</ul>
+						</div>
+						
+						<div class="card hidden">
+							<header class="card-header clearfix">
+								<div class="card-timer">
+									<div class="demo">
+										<input class="knob">
+									</div>
+								</div>
+								
+								<span class="ico-circular ico-outline">
+									<span class="ico-cat ico-cat-1"></span>
+								</span>	
+								
+								<div class="card-title-wrap">
+									<div class="card-title">
+										<span class="card-number"></span>
+										<h4 class="card-category" data-id=""></h4>
+									</div>
+								</div><!--/card-title-wrap -->
+							</header>
+							
+							<div class="card-text">
+								<div class="msg-result msg-correct hidden"></div>
+								<div class="msg-result msg-incorrect hidden"></div>
+								<div class="msg-result msg-time hidden"></div>
+								<p></p>
+							</div>
+
+							<div class="card-options">
+								<div class="list-options">
+									<a class="option option1"></a>
+									<a class="option option2"></a>
+									<a class="option option3"></a>
+									<a class="option option4"></a>
+									<a class="option option5"></a>
+								</div>
+								<a class="btn-arrow-right btn-next-jugador hidden">Siguiente</a>
+							</div>
+						</div><!--/card-->
+					</div><!--/content-->
+
+					<!-- CLOUDS -->
+					<span id="cloud-1" class="cloud cloud-1"></span>
+					<span id="cloud-2" class="cloud cloud-2"></span>
+					<span id="cloud-3" class="cloud cloud-3"></span>
+					<span id="cloud-4" class="cloud cloud-4"></span>
+				</div><!--/main-->
+			</div><!--/page-wrap -->
+
+			<!-- FOOTER -->
+			<footer class="site-footer">
+				<div class="page-width relative-wrap">
+					<span class="logo-ministerio"></span>
+					<ul class="nav-bottom">
+						<li id="li-jugar"><a class="btn btn-primary modal-open" data-mfp-src="#modal-start"><span>Jugar</span></a></li>
+						<!-- <li id="como-jugar"><a class="btn btn-default modal-open-top" data-mfp-src="#modal-help"><span>¿Primera Vez?</span></a></li> -->
+					</ul>
+				</div>
+				<!--/page-width -->
+			</footer>
+
+			<!-- MODAL -->
+			<div id="modal-start" class="modal modal-plain mfp-hide">
+				<div class="player-create">
+					<div class="player-slider cycle-slideshow"
+						data-cycle-fx="fadeout"
+						data-cycle-speed="300"
+						data-cycle-timeout="0"
+						data-cycle-next=".player-next"
+						data-cycle-prev=".player-prev"
+						data-cycle-slides="> div"
+						data-allow-wrap= "false"
+						data-disabled-class= "hidden"
+					>
+					<div class="box">
+						<h4 class="title">Jugador</h4>
+						<input class="input-text input-jugador" data-id="1" type="text" maxlength="20" placeholder="Tu nombre" re>
+					</div>
+					</div>
+					<!--/player-slider-->
+					<a href="" class="btn-next player-next"></a>
+					<a href="" class="btn-prev player-prev"></a>
+				</div>
+
+				<ul class="list-btn">
+					<li>
+						<a id="comenzar-juego" class="btn btn-primary btn-block">
+							<span>Comenzar</span>
+						</a>
+					</li>
+					<!-- <li><a id="agregar-jugador" class="btn btn-default btn-block btn-extra-line"><span>Agregar jugador</span></a></li> -->
+					
+				</ul>
+			</div><!--/modal-->	
+
+			<!-- MODAL STATS -->
+			<div id="modal-stats" class="modal modal-window mfp-hide">
+				<div class="modal-top-bar">
+					<div class="modal-title">
+						<h2 class="title">
+							<span class="ico-square btn-default"><span class="ico-chart"></span></span>
+							Estadísticas de cada jugador
+						</h2>
+					</div>
+					<a class="btn-close modal-close"></a>
+				</div>
+
+				<div class="modal-content">
+					<!-- TABLE STATS -->
+					<table class="table">
+						<thead>
+							<tr>
+								<th colspan="2"><span class="title-rank"></span></th>
+								<th><span class="ico-circular ico-default ico-sm"><span class="ico-cat ico-cat-1"></span></span></th>
+								<th><span class="ico-circular ico-default ico-sm"><span class="ico-cat ico-cat-2"></span></span></th>
+								<th><span class="ico-circular ico-default ico-sm"><span class="ico-cat ico-cat-3"></span></span></th>
+								<th><span class="ico-circular ico-default ico-sm"><span class="ico-cat ico-cat-4"></span></span></th>
+								<th><span class="ico-circular ico-default ico-sm"><span class="ico-cat ico-cat-5"></span></span></th>
+								<th><span class="ico-circular ico-default ico-sm"><span class="ico-cat ico-cat-6"></span></span></th>
+								<th class="td-total">TOTAL Puntaje</th>
+							</tr>
+						</thead>
+						
+						<tbody>
+						</tbody>
+					</table>
+					<div class="ribbon ribbon-felicitaciones hidden"><span>¡Felicidades has completado el juego!</span></div>
+				</div><!--/modal-content-->
+			</div><!--/modal-->
+
+			<!-- MODAL COMO JUGAR -->
+			<div id="modal-help" class="modal modal-window modal-color mfp-hide">			
+				<div class="modal-top-bar">
+					<div class="help-title"></div>
+					<a class="btn-close modal-close"></a>
+				</div>			
+
+				<div class="modal-content">
+					<img class="max-width" src="img/help-window.svg" alt="">
+				</div><!--/modal-content-->
+			</div><!--/modal-->	
+
+			<!-- MODAL EXIT -->
+			<div id="modal-exit" class="modal modal-plain mfp-hide">
+				<h3 class="title">¿Terminar el juego?</h3>
+				<ul class="list-btn">
+					<li><a id="terminar-juego" class="btn btn-primary btn-block"><span>Aceptar</span></a></li>
+					<li><a class="btn btn-secondary btn-block modal-close"><span>Cancelar</span></a></li>
+				</ul>
+			</div><!--/modal-->	
+                
+			<!-- MODAL TIPS -->
+			<div id="modal-tips" class="modal modal-tips mfp-hide">
+				<h3 class="title uppercase">Pulsa el boton para girar la ruleta</h3>
+				<span class="arrow-spin"></span>
+				<div class="roulette-pointer">
+					<span class="btn-turn">Girar</span>
+				</div>
+				<div class="ribbon"><span>¡Mucha suerte!</span></div>
+			</div><!--/modal-->	                
+        </div>
+
+		<!-- JS Libraries -->
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.cycle2.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/jquery.transit.min.js"></script>
+		<script src="js/jquery.knob.js"></script>
+
+		<!-- Config -->
+		<script src="js/modal-cfg.js"></script>
+		<script src="js/parallax.js"></script>
+		<script src="js/ruleta.js"></script>
+		<script src="js/db_index.js"></script>
+		<script src="js/html.js"></script>
+		<script src="js/base.js"></script>
+	</body>
+</html>
